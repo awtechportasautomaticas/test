@@ -30,18 +30,7 @@ h2{font-size:1.6rem; margin:0 0 8px}
 .contact-row{display:flex; flex-direction:column; gap:12px}
 .form{display:flex; flex-direction:column; gap:10px}
 .form input, .form textarea{padding:10px; border-radius:8px; border:1px solid rgba(255,255,255,0.06); background: rgba(255,255,255,0.02); color: #fff;}
-.footer {
-    padding: 18px 0;
-    border-top: 1px solid rgba(255,255,255,0.06);
-    text-align: center;
-    color: var(--muted);
-    background: rgba(0,0,0,0.25);
-    backdrop-filter: blur(6px);
-}
-.footer p {
-    margin: 0;
-    opacity: 0.8;
-}
+.footer{padding:18px 0; border-top:1px solid rgba(255,255,255,0.02); text-align:center; color:var(--muted)}
 
 .hidden{opacity:0; transform: translateY(10px); transition: all 600ms cubic-bezier(.2,.9,.2,1)}
 .show{opacity:1; transform: translateY(0); transition: all 600ms cubic-bezier(.2,.9,.2,1)}
