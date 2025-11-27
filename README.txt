@@ -6,4 +6,4 @@ Files included:
 - assets/js/main.js
 - assets/img/* (logo, fundo, service images)
 
-To change WhatsApp or e-mail, edit the links in index.html (search for wa.me and contato@awtech.com.br)
+To change WhatsApp or e-mail, edit the links in index.html (search for wa.me and awtechportasautmaticas@gmail.com)
