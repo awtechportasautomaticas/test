@@ -14,7 +14,10 @@
 .mobile-menu{width:100%; display:flex; flex-direction:column; gap:8px; padding:12px var(--container); background: linear-gradient(180deg, rgba(4,8,12,0.6), rgba(4,8,12,0.4)); border-top: 1px solid rgba(255,255,255,0.02);}
 .mobile-menu a{padding:10px 12px; border-radius:8px; text-decoration:none; color:var(--muted)}
 .mobile-menu a.wh{background:transparent; border:1px solid rgba(255,255,255,0.06); color:white; padding:10px 14px; text-align:center}
-
+.hero{position:relative; min-height:62vh; display:grid; place-items:center; padding-top:72px; background-image: url('assets/img/logoawtech.jpg'); background-size:cover; background-position:center center;}
+.hero-overlay{position:absolute; inset:0; background:linear-gradient(180deg, rgba(2,6,10,0.6), rgba(2,6,10,0.6)); mix-blend-mode:multiply;}
+.hero-inner{position:relative; width:var(--container); max-width:1100px; margin:0 auto; text-align:left; padding:48px 0;}
+.hero h1{font-size:3.6rem; margin:0 0 6px; letter-spacing:-0.5px}
 .lead{color:var(--muted); margin:6px 0 18px}
 .btn{display:inline-block; background:linear-gradient(180deg,var(--accent), #0565d6); color:white; padding:10px 16px; border-radius:10px; text-decoration:none; font-weight:700; box-shadow: 0 6px 18px rgba(11,132,255,0.12);}
 .container{width:var(--container); max-width:var(--max-width); margin:0 auto; padding:34px 0}
