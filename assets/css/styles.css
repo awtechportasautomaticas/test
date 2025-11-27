@@ -14,7 +14,7 @@
 .mobile-menu{width:100%; display:flex; flex-direction:column; gap:8px; padding:12px var(--container); background: linear-gradient(180deg, rgba(4,8,12,0.6), rgba(4,8,12,0.4)); border-top: 1px solid rgba(255,255,255,0.02);}
 .mobile-menu a{padding:10px 12px; border-radius:8px; text-decoration:none; color:var(--muted)}
 .mobile-menu a.wh{background:transparent; border:1px solid rgba(255,255,255,0.06); color:white; padding:10px 14px; text-align:center}
-.hero{position:relative; min-height:62vh; display:grid; place-items:center; padding-top:72px; background-image: url('assets/img/fundo-awtech.png'); background-size:cover; background-position:center center;}
+
 .hero {
     position: relative;
     min-height: 75vh;
