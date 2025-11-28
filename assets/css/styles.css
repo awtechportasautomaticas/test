@@ -258,7 +258,7 @@ section::after {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('../img/logoawtech.png');
+    background-image: url('../img/fundo-awtech.jpg');
     background-size: 60%;    /* tamanho da logo no fundo */
     background-position: center center;
     background-repeat: no-repeat;
@@ -311,7 +311,7 @@ section::after {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("assets/img/logoawtech.png");
+    background-image: url("assets/img/fundo-awtech.jpg");
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -344,9 +344,9 @@ section::after {
   /* 2) Caminho relativo padrão (do CSS) */
   /* 3) Caminho subindo um nível — caso seu CSS esteja em pasta assets/css/ */
   background-image:
-    url("/test/assets/img/logoawtech.png"),
-    url("assets/img/logoawtech.png"),
-    url("../assets/img/logoawtech.png");
+    url("/test/assets/img/fundo-awtech.jpg"),
+    url("assets/img/fundo-awtech.jpg"),
+    url("../assets/img/fundo-awtech.jpg");
   /* Caso seu repositório tenha outro nome, substitua /test/ pelo nome do repositório */
 }
 
